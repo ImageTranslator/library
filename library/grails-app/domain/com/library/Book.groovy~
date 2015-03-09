@@ -12,7 +12,13 @@ Date dateBorrowed
 
 Date returnDate
 
-String student
+Student Student
+
+String toString(){
+
+"$title,$author,$isbn,$returnDate"
+
+}
 
     static constraints = {
 

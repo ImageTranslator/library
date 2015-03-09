@@ -8,7 +8,13 @@ String email
 
 String studentId
 
-String Course
+Course course
+
+String toString(){
+
+"$name,$email,$studentId"
+
+}
 
     static constraints = {
 

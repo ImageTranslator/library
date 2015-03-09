@@ -6,11 +6,17 @@ String location
 
 String openingHours
 
-String Book
+Book Book
 
-String Student
+Student Student
 
-String Libarian
+Libarian Libarian
+
+String toString(){
+
+"$location,$openingHours,$Libarian"
+
+}
 
 
     static constraints = {

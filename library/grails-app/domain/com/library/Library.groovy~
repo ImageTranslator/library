@@ -6,11 +6,11 @@ String location
 
 String openingHours
 
-String book
+Book Book
 
-String student
+Student Student
 
-String libarian
+Libarian Libarian
 
 
     static constraints = {
