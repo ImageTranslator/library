@@ -12,7 +12,6 @@ Date dateBorrowed
 
 Date returnDate
 
-Student student
 
 String toString(){
 
@@ -32,6 +31,5 @@ dateBorrowed()
 
 returnDate()
 
-student()
     }
 }

@@ -10,6 +10,8 @@ String studentId
 
 Course course
 
+Book book
+
 String toString(){
 
 "$name,$email,$studentId"
@@ -25,5 +27,7 @@ email()
 studentId()
 
 course()
+
+book()
     }
 }

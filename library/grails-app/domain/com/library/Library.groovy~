@@ -12,6 +12,12 @@ Student Student
 
 Libarian Libarian
 
+String toString(){
+
+"$location,$openingHours,$Libarian"
+
+}
+
 
     static constraints = {
 

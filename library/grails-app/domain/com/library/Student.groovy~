@@ -8,7 +8,9 @@ String email
 
 String studentId
 
-Course Course
+Course course
+
+Book book
 
 String toString(){
 

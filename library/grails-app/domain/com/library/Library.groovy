@@ -6,11 +6,11 @@ String location
 
 String openingHours
 
-Book Book
+Book book
 
-Student Student
+Student student
 
-Libarian Libarian
+Libarian libarian
 
 String toString(){
 
