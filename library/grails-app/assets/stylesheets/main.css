@@ -1,21 +1,50 @@
+@font-face {
+    font-family: 'Roboto';
+    src: url('http://fonts.googleapis.com/css?family=Roboto:400,300italic,500,700');
+}	
+
+
 /* FONT STACK */
 body,
 input, select, textarea {
-	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+	font-family: 'Roboto';
+}
+
+body h3 {
+	font-family: 'Roboto';
+	margin:1%;
+}
+
+body p {
+	font-family: 'Roboto';
+	margin:1%;
 }
 
 h1, h2, h3, h4, h5, h6 {
 	line-height: 1.1;
+	
 }
 
 /* BASE LAYOUT */
 
+#welcome h3{
+	text-align:center:
+
+}
+
+
+#welcome p{
+	margin:1%;
+
+}
+
 html {
-	background-color: #ddd;
-	background-image: -moz-linear-gradient(center top, #aaa, #ddd);
-	background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #aaa), color-stop(1, #ddd));
+	font-family: 'Roboto';
+	background-color: #518DFF;
+	background-image: -moz-linear-gradient(center top, #3D6ABF, #497FE5);
+	background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #3D6ABF), color-stop(1, #497FE5));
 	background-image: linear-gradient(top, #aaa, #ddd);
-	filter: progid:DXImageTransform.Microsoft.gradient(startColorStr = '#aaaaaa', EndColorStr = '#dddddd');
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorStr = '#3D6ABF', EndColorStr = '#497FE5');
 	background-repeat: no-repeat;
 	height: 100%;
 	/* change the box model to exclude the padding from the calculation of 100% height (IE8+) */
@@ -25,7 +54,7 @@ html {
 }
 
 html.no-cssgradients {
-	background-color: #aaa;
+	background-color: #518DFF;
 }
 
 .ie6 html {
@@ -48,14 +77,22 @@ body {
 }
 
 #grailsLogo {
-	background-color: #abbf78;
+	background-color: #3D6ABF;
+	color:white;
+}
+
+
+#grailsLogo a{
+	background-color: #3D6ABF;
+	color:white;
+	font-size:30px;
 }
 
 /* replace with .no-boxshadow body if you have modernizr available */
 .ie6 body,
 .ie7 body,
 .ie8 body {
-	border-color: #255b17;
+	border-color: white;
 	border-style: solid;
 	border-width: 0 1px;
 }
@@ -65,7 +102,7 @@ body {
 }
 
 a:link, a:visited, a:hover {
-	color: #48802c;
+	color: black;
 }
 
 a:hover, a:active {
@@ -73,7 +110,7 @@ a:hover, a:active {
 }
 
 h1 {
-	color: #48802c;
+	color: black;
 	font-weight: normal;
 	font-size: 1.25em;
 	margin: 0.8em 0 0.3em 0;
@@ -85,13 +122,17 @@ ul {
 
 img {
 	border: 0;
+	width:50%
 }
 
 /* GENERAL */
 
 #grailsLogo a {
 	display: inline-block;
-	margin: 1em;
+	margin: 1%;
+	color:white;
+	font-size:30px;
+	
 }
 
 .content {
@@ -108,7 +149,7 @@ img {
 }
 
 .footer {
-	background: #abbf78;
+	background: #3D6ABF;
 	color: #000;
 	clear: both;
 	font-size: 0.8em;
@@ -118,7 +159,7 @@ img {
 }
 
 .footer a {
-	color: #255b17;
+	color: white;
 }
 
 .spinner {
@@ -446,11 +487,11 @@ th a {
 }
 
 th a:link, th a:visited {
-	color: #666666;
+	color: black;
 }
 
 th a:hover, th a:focus {
-	color: #333333;
+	color: black;
 }
 
 th.sortable a {
@@ -476,7 +517,7 @@ th.desc a {
 }
 
 th:hover, tr:hover {
-	background: #E1F2B6;
+	background: #BFDBFF;
 }
 
 /* PAGINATION */
@@ -522,13 +563,14 @@ th:hover, tr:hover {
 /* ACTION BUTTONS */
 
 .buttons {
-	background-color: #efefef;
+	background-color: #518DFF;
 	overflow: hidden;
-	padding: 0.3em;
+	padding: 0.5%;
 	   -moz-box-shadow: 0 0 3px 1px #aaaaaa;
 	-webkit-box-shadow: 0 0 3px 1px #aaaaaa;
 	        box-shadow: 0 0 3px 1px #aaaaaa;
-	margin: 0.1em 0 0 0;
+	margin-bottom: 1%;
+	margin-left: 1%;
 	border: none;
 }
 
@@ -536,7 +578,7 @@ th:hover, tr:hover {
 .buttons a {
 	background-color: transparent;
 	border: 0;
-	color: #666666;
+	color: white;
 	cursor: pointer;
 	display: inline-block;
 	margin: 0 0.25em 0;
@@ -551,9 +593,9 @@ th:hover, tr:hover {
 
 .buttons input:hover, .buttons input:focus,
 .buttons a:hover, .buttons a:focus {
-	background-color: #999999;
-	color: #ffffff;
+	color: black;
 	outline: none;
+	border-radius: 5px;
 	text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.8);
 	   -moz-box-shadow: none;
 	-webkit-box-shadow: none;
