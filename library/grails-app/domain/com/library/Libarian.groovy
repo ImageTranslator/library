@@ -14,7 +14,7 @@ String telephone
 
 String toString(){
 
-"$name,$email,$userName"
+"$name"
 
 }
 

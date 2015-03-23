@@ -12,7 +12,11 @@ String password
 
 String telephone
 
-String toString() {name}
+String toString(){
+
+"$name,$email,$userName"
+
+}
 
     static constraints = {
 
